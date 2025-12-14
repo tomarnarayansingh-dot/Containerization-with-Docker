@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-sl-pod
+  labels:
+    app: lblnginx
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx
